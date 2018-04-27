@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3272286A209305C800FF7ADB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32722869209305C800FF7ADB /* AppDelegate.m */; };
+		3272286D209305C800FF7ADB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3272286C209305C800FF7ADB /* ViewController.m */; };
+		32722870209305C800FF7ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3272286E209305C800FF7ADB /* Main.storyboard */; };
+		32722872209305C800FF7ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32722871209305C800FF7ADB /* Assets.xcassets */; };
+		32722875209305C800FF7ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32722873209305C800FF7ADB /* LaunchScreen.storyboard */; };
+		32722878209305C800FF7ADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32722877209305C800FF7ADB /* main.m */; };
+		32722882209305C800FF7ADB /* WGLearnMTMediatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32722881209305C800FF7ADB /* WGLearnMTMediatorDemoTests.m */; };
+		3272288D209305C800FF7ADB /* WGLearnMTMediatorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3272288C209305C800FF7ADB /* WGLearnMTMediatorDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3272287E209305C800FF7ADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3272285D209305C800FF7ADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32722864209305C800FF7ADB;
+			remoteInfo = WGLearnMTMediatorDemo;
+		};
+		32722889209305C800FF7ADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3272285D209305C800FF7ADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32722864209305C800FF7ADB;
+			remoteInfo = WGLearnMTMediatorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32722865209305C800FF7ADB /* WGLearnMTMediatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGLearnMTMediatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32722868209305C800FF7ADB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32722869209305C800FF7ADB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3272286B209305C800FF7ADB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3272286C209305C800FF7ADB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3272286F209305C800FF7ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32722871209305C800FF7ADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32722874209305C800FF7ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32722876209305C800FF7ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32722877209305C800FF7ADB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3272287D209305C800FF7ADB /* WGLearnMTMediatorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGLearnMTMediatorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32722881209305C800FF7ADB /* WGLearnMTMediatorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLearnMTMediatorDemoTests.m; sourceTree = "<group>"; };
+		32722883209305C800FF7ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32722888209305C800FF7ADB /* WGLearnMTMediatorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGLearnMTMediatorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3272288C209305C800FF7ADB /* WGLearnMTMediatorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLearnMTMediatorDemoUITests.m; sourceTree = "<group>"; };
+		3272288E209305C800FF7ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32722862209305C800FF7ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3272287A209305C800FF7ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32722885209305C800FF7ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3272285C209305C800FF7ADB = {
+			isa = PBXGroup;
+			children = (
+				32722867209305C800FF7ADB /* WGLearnMTMediatorDemo */,
+				32722880209305C800FF7ADB /* WGLearnMTMediatorDemoTests */,
+				3272288B209305C800FF7ADB /* WGLearnMTMediatorDemoUITests */,
+				32722866209305C800FF7ADB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32722866209305C800FF7ADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32722865209305C800FF7ADB /* WGLearnMTMediatorDemo.app */,
+				3272287D209305C800FF7ADB /* WGLearnMTMediatorDemoTests.xctest */,
+				32722888209305C800FF7ADB /* WGLearnMTMediatorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32722867209305C800FF7ADB /* WGLearnMTMediatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				32722868209305C800FF7ADB /* AppDelegate.h */,
+				32722869209305C800FF7ADB /* AppDelegate.m */,
+				3272286B209305C800FF7ADB /* ViewController.h */,
+				3272286C209305C800FF7ADB /* ViewController.m */,
+				3272286E209305C800FF7ADB /* Main.storyboard */,
+				32722871209305C800FF7ADB /* Assets.xcassets */,
+				32722873209305C800FF7ADB /* LaunchScreen.storyboard */,
+				32722876209305C800FF7ADB /* Info.plist */,
+				32722877209305C800FF7ADB /* main.m */,
+			);
+			path = WGLearnMTMediatorDemo;
+			sourceTree = "<group>";
+		};
+		32722880209305C800FF7ADB /* WGLearnMTMediatorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				32722881209305C800FF7ADB /* WGLearnMTMediatorDemoTests.m */,
+				32722883209305C800FF7ADB /* Info.plist */,
+			);
+			path = WGLearnMTMediatorDemoTests;
+			sourceTree = "<group>";
+		};
+		3272288B209305C800FF7ADB /* WGLearnMTMediatorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3272288C209305C800FF7ADB /* WGLearnMTMediatorDemoUITests.m */,
+				3272288E209305C800FF7ADB /* Info.plist */,
+			);
+			path = WGLearnMTMediatorDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32722864209305C800FF7ADB /* WGLearnMTMediatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32722891209305C800FF7ADB /* Build configuration list for PBXNativeTarget "WGLearnMTMediatorDemo" */;
+			buildPhases = (
+				32722861209305C800FF7ADB /* Sources */,
+				32722862209305C800FF7ADB /* Frameworks */,
+				32722863209305C800FF7ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WGLearnMTMediatorDemo;
+			productName = WGLearnMTMediatorDemo;
+			productReference = 32722865209305C800FF7ADB /* WGLearnMTMediatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3272287C209305C800FF7ADB /* WGLearnMTMediatorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32722894209305C800FF7ADB /* Build configuration list for PBXNativeTarget "WGLearnMTMediatorDemoTests" */;
+			buildPhases = (
+				32722879209305C800FF7ADB /* Sources */,
+				3272287A209305C800FF7ADB /* Frameworks */,
+				3272287B209305C800FF7ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3272287F209305C800FF7ADB /* PBXTargetDependency */,
+			);
+			name = WGLearnMTMediatorDemoTests;
+			productName = WGLearnMTMediatorDemoTests;
+			productReference = 3272287D209305C800FF7ADB /* WGLearnMTMediatorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32722887209305C800FF7ADB /* WGLearnMTMediatorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32722897209305C800FF7ADB /* Build configuration list for PBXNativeTarget "WGLearnMTMediatorDemoUITests" */;
+			buildPhases = (
+				32722884209305C800FF7ADB /* Sources */,
+				32722885209305C800FF7ADB /* Frameworks */,
+				32722886209305C800FF7ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3272288A209305C800FF7ADB /* PBXTargetDependency */,
+			);
+			name = WGLearnMTMediatorDemoUITests;
+			productName = WGLearnMTMediatorDemoUITests;
+			productReference = 32722888209305C800FF7ADB /* WGLearnMTMediatorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3272285D209305C800FF7ADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = wanggang;
+				TargetAttributes = {
+					32722864209305C800FF7ADB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3272287C209305C800FF7ADB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32722864209305C800FF7ADB;
+					};
+					32722887209305C800FF7ADB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32722864209305C800FF7ADB;
+					};
+				};
+			};
+			buildConfigurationList = 32722860209305C800FF7ADB /* Build configuration list for PBXProject "WGLearnMTMediatorDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3272285C209305C800FF7ADB;
+			productRefGroup = 32722866209305C800FF7ADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32722864209305C800FF7ADB /* WGLearnMTMediatorDemo */,
+				3272287C209305C800FF7ADB /* WGLearnMTMediatorDemoTests */,
+				32722887209305C800FF7ADB /* WGLearnMTMediatorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32722863209305C800FF7ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32722875209305C800FF7ADB /* LaunchScreen.storyboard in Resources */,
+				32722872209305C800FF7ADB /* Assets.xcassets in Resources */,
+				32722870209305C800FF7ADB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3272287B209305C800FF7ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32722886209305C800FF7ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32722861209305C800FF7ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3272286D209305C800FF7ADB /* ViewController.m in Sources */,
+				32722878209305C800FF7ADB /* main.m in Sources */,
+				3272286A209305C800FF7ADB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32722879209305C800FF7ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32722882209305C800FF7ADB /* WGLearnMTMediatorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32722884209305C800FF7ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3272288D209305C800FF7ADB /* WGLearnMTMediatorDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3272287F209305C800FF7ADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32722864209305C800FF7ADB /* WGLearnMTMediatorDemo */;
+			targetProxy = 3272287E209305C800FF7ADB /* PBXContainerItemProxy */;
+		};
+		3272288A209305C800FF7ADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32722864209305C800FF7ADB /* WGLearnMTMediatorDemo */;
+			targetProxy = 32722889209305C800FF7ADB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3272286E209305C800FF7ADB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3272286F209305C800FF7ADB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32722873209305C800FF7ADB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32722874209305C800FF7ADB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3272288F209305C800FF7ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32722890209305C800FF7ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32722892209305C800FF7ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = WGLearnMTMediatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGLearnMTMediatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32722893209305C800FF7ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = WGLearnMTMediatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGLearnMTMediatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32722895209305C800FF7ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = WGLearnMTMediatorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGLearnMTMediatorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WGLearnMTMediatorDemo.app/WGLearnMTMediatorDemo";
+			};
+			name = Debug;
+		};
+		32722896209305C800FF7ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = WGLearnMTMediatorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGLearnMTMediatorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WGLearnMTMediatorDemo.app/WGLearnMTMediatorDemo";
+			};
+			name = Release;
+		};
+		32722898209305C800FF7ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = WGLearnMTMediatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGLearnMTMediatorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WGLearnMTMediatorDemo;
+			};
+			name = Debug;
+		};
+		32722899209305C800FF7ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = WGLearnMTMediatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGLearnMTMediatorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WGLearnMTMediatorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32722860209305C800FF7ADB /* Build configuration list for PBXProject "WGLearnMTMediatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3272288F209305C800FF7ADB /* Debug */,
+				32722890209305C800FF7ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32722891209305C800FF7ADB /* Build configuration list for PBXNativeTarget "WGLearnMTMediatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32722892209305C800FF7ADB /* Debug */,
+				32722893209305C800FF7ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32722894209305C800FF7ADB /* Build configuration list for PBXNativeTarget "WGLearnMTMediatorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32722895209305C800FF7ADB /* Debug */,
+				32722896209305C800FF7ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32722897209305C800FF7ADB /* Build configuration list for PBXNativeTarget "WGLearnMTMediatorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32722898209305C800FF7ADB /* Debug */,
+				32722899209305C800FF7ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3272285D209305C800FF7ADB /* Project object */;
+}
