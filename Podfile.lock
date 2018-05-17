@@ -1,0 +1,26 @@
+PODS:
+  - CTMediator (18)
+  - wgPersonInfoCatogeryKit (1):
+    - CTMediator
+  - wgPersonInfoKit (1):
+    - wgPersonPrefrenceCatogeryKit
+  - wgPersonPrefenceKit (1)
+  - wgPersonPrefrenceCatogeryKit (1):
+    - CTMediator
+
+DEPENDENCIES:
+  - wgPersonInfoCatogeryKit
+  - wgPersonInfoKit
+  - wgPersonPrefenceKit
+  - wgPersonPrefrenceCatogeryKit
+
+SPEC CHECKSUMS:
+  CTMediator: 420e9d90f9f1fd740caf2238ed7ed64dc621c5b7
+  wgPersonInfoCatogeryKit: 7f7141524a3a106f726b11ededeaaaeb731415fd
+  wgPersonInfoKit: b6d184da0f32c2e4bd3318f7cf0137a04cb7a2c5
+  wgPersonPrefenceKit: 894211938c9fcce7cab8594576c98cab11c63bcc
+  wgPersonPrefrenceCatogeryKit: 601066b5aa42f366d6ae5bd6a7f5a5bd42ba5d43
+
+PODFILE CHECKSUM: bb2791d03b4405a4e2d5cfc6054b704202e80e34
+
+COCOAPODS: 1.3.1

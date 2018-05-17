@@ -1,0 +1,1157 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020A63DFD67B2AC03F05C87257C2F4EF /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 996389F0386ED53C1D6D784318763F3D /* CTMediator-dummy.m */; };
+		05E5117C82E752C6BD3CB1F8A3B178B7 /* Target_WGPersonPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBDC4F9C8953AF7B123021F9AC44FE0 /* Target_WGPersonPreferenceViewController.m */; };
+		07BD206973187D58A455E958D8CDA033 /* Target_WGPersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B0171CA978CF1C690A9C9DB9A43E10 /* Target_WGPersonInfoViewController.m */; };
+		11B6230FABE1099FA5356CFB0C5B8F97 /* Target_WGPersonInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE5BDCBB633E92E9C6442416D857F2B /* Target_WGPersonInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AA26BF5BB36FD3549B1950FD2FF60EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		385974CC034C7422D703FB06BAFFEE19 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC29DBEC0E6A4EBD3955BFB43930978 /* ReplaceMe.m */; };
+		3C67BE031B4EF04FE4FFAD5E9BA8D5D6 /* WGPersonPreferenceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 217EB8845EAB8EEEAB7ECC3484B0E345 /* WGPersonPreferenceViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43AF4FBB89C73ED2F37037018DA5A043 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		48BF0A13E768875A66AC431ED350D90A /* Target_WGPersonPreferenceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E01855584A82D0619E1670E4B1C2084 /* Target_WGPersonPreferenceViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BC09C6212AC2611F54A805CB90DD57E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		51B5BD94D8E4C0CCD8483E8ECD950359 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		5298AC33D3254C036CE88FA30BA7EC03 /* wgPersonPrefrenceCatogeryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7376CCEB5E13B352AD4AE559B1B07B2 /* wgPersonPrefrenceCatogeryKit-dummy.m */; };
+		53583C64F37FBAEF368D8BA180F34FC2 /* CTMediator+TAPersonPreference.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A55BCBDE14F8A332DECC67A3467C108 /* CTMediator+TAPersonPreference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5564A0FC91418D0B995464C6B3A9C9DA /* wgPersonPrefenceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDA3F8FDB2DD154C2B6BC239AB4AE32 /* wgPersonPrefenceKit-dummy.m */; };
+		5BEEB2239E620663FD432B5390C0CACD /* CTMediator+TAPersonInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F0231A054C16E4B7F4D7621781B66BC3 /* CTMediator+TAPersonInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61E5C3FD58D84C06AAB769DCAD6A8011 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		6B0A3E95D6E6B6E68CC165D87DC0854A /* CTMediator+TAPersonInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 489825A871F05B32838686B5AEF77D4A /* CTMediator+TAPersonInfo.m */; };
+		6D0E53F480191293E487CCB91D4DE7B7 /* Pods-WGLearnMTMediatorDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 327D225073FF2A1432E696411BF082A5 /* Pods-WGLearnMTMediatorDemo-dummy.m */; };
+		8B3BA7D52CE22CE2BA9606279D0C1EC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		952E79EC7239346292F68B69334B6DB5 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = D876DF8D7E266F8986A4BE7E919CAAC3 /* CTMediator.m */; };
+		9B725822091BA38E5935E870F2169989 /* WGPersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B64F38FE8D93EDDBE2819AD0413C3EE /* WGPersonInfoViewController.m */; };
+		A2A47125410E87FF2275B261D1462B46 /* wgPersonInfoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C472A32491806808F49FF6814D9440 /* wgPersonInfoKit-dummy.m */; };
+		A9669B6C3B13147F2378BA930E7E2DB7 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DD1503EE75FEFEC579439526D657B82 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABE607216D5052E027B179E1665610D1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83C003EA4D807CF1528839356D469D /* ReplaceMe.m */; };
+		CEF75674A0EC370BF60600842766039C /* WGPersonInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCB4A48814FB3EA9690714AF0817967 /* WGPersonInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E39EBA8D7BA273BE5EB821F80AA7C210 /* WGPersonPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB96D843DF1F20851B1B44A9B94C2CB2 /* WGPersonPreferenceViewController.m */; };
+		E52B6AD3A8E8AA4135BCE655345A8F33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		EA7FDB0B3F24AFB4D4E5C102AC9A5C29 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FD041F257158AC9243698CA410ECB42B /* ReplaceMe.m */; };
+		EAC096206B1F5215ED5C7B389C73B355 /* CTMediator+TAPersonPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = 388169EDF320DE4375DFA4F9DB38A10D /* CTMediator+TAPersonPreference.m */; };
+		F3AAE8E94E972E6A871311670E37ADB8 /* wgPersonInfoCatogeryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0E3B3BA8BA3A813E69285D19F483E /* wgPersonInfoCatogeryKit-dummy.m */; };
+		FA0E7E9C9CC322E87D9CEEC76A5E0E46 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D75EA8DE994B51F8B9E82FAD443947 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D7958D515B3771E353F35DEDDA5A79B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5732AB7B82F4562C552FDAD06B943A82;
+			remoteInfo = CTMediator;
+		};
+		2588F6EE66251579B1EDFF51365BB3D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5732AB7B82F4562C552FDAD06B943A82;
+			remoteInfo = CTMediator;
+		};
+		41B58ECC51A47959B50D1AC2C6AFE7D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1AC2F2582BA2BEDCC42FD53BBD7C66;
+			remoteInfo = wgPersonInfoCatogeryKit;
+		};
+		4E75E8DB5CE5B87F17DC274558A3F6E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FB85389BC3D9ACEF2B09918633B5E1;
+			remoteInfo = wgPersonPrefenceKit;
+		};
+		5B80B1BC4323BDFB8652E79E8F27EF36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5732AB7B82F4562C552FDAD06B943A82;
+			remoteInfo = CTMediator;
+		};
+		77418B15D3281093FF7F7538F13D115D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B85A5A64A714734C54A2CE84FC2CE393;
+			remoteInfo = wgPersonPrefrenceCatogeryKit;
+		};
+		79AB1958B295B5F8CBCF3218CAE1FD7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B85A5A64A714734C54A2CE84FC2CE393;
+			remoteInfo = wgPersonPrefrenceCatogeryKit;
+		};
+		A9E548AFBF0DF711758CFBA4C57038AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5732AB7B82F4562C552FDAD06B943A82;
+			remoteInfo = CTMediator;
+		};
+		C3162D11C20A09F5CF44A270637D0824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 855578708F36811DE6A768FE3F2AB633;
+			remoteInfo = wgPersonInfoKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008EE0F11FFF718EF0DBB056B7A0ADCF /* wgPersonInfoCatogeryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wgPersonInfoCatogeryKit-prefix.pch"; sourceTree = "<group>"; };
+		111DFECE577DD260889B6DD609EBC93A /* wgPersonInfoCatogeryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wgPersonInfoCatogeryKit.xcconfig; sourceTree = "<group>"; };
+		1CDA3F8FDB2DD154C2B6BC239AB4AE32 /* wgPersonPrefenceKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "wgPersonPrefenceKit-dummy.m"; sourceTree = "<group>"; };
+		1E01855584A82D0619E1670E4B1C2084 /* Target_WGPersonPreferenceViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_WGPersonPreferenceViewController.h; path = wgPersonPrefenceKit/Classes/TAPersonPrefrence/Target_WGPersonPreferenceViewController.h; sourceTree = "<group>"; };
+		217EB8845EAB8EEEAB7ECC3484B0E345 /* WGPersonPreferenceViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WGPersonPreferenceViewController.h; path = wgPersonPrefenceKit/Classes/TAPersonPrefrence/WGPersonPreferenceViewController.h; sourceTree = "<group>"; };
+		254224D964FE1AFC825F1380F5402B25 /* wgPersonPrefrenceCatogeryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wgPersonPrefrenceCatogeryKit-prefix.pch"; sourceTree = "<group>"; };
+		2EE5BDCBB633E92E9C6442416D857F2B /* Target_WGPersonInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_WGPersonInfoViewController.h; path = wgPersonInfoKit/Classes/TAPersonInfo/Target_WGPersonInfoViewController.h; sourceTree = "<group>"; };
+		327D225073FF2A1432E696411BF082A5 /* Pods-WGLearnMTMediatorDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WGLearnMTMediatorDemo-dummy.m"; sourceTree = "<group>"; };
+		388169EDF320DE4375DFA4F9DB38A10D /* CTMediator+TAPersonPreference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+TAPersonPreference.m"; path = "wgPersonPrefrenceCatogeryKit/Classes/wgPersonPrefrenceCatogery/CTMediator+TAPersonPreference.m"; sourceTree = "<group>"; };
+		3DD1503EE75FEFEC579439526D657B82 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		3FBDC4F9C8953AF7B123021F9AC44FE0 /* Target_WGPersonPreferenceViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_WGPersonPreferenceViewController.m; path = wgPersonPrefenceKit/Classes/TAPersonPrefrence/Target_WGPersonPreferenceViewController.m; sourceTree = "<group>"; };
+		46B0171CA978CF1C690A9C9DB9A43E10 /* Target_WGPersonInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_WGPersonInfoViewController.m; path = wgPersonInfoKit/Classes/TAPersonInfo/Target_WGPersonInfoViewController.m; sourceTree = "<group>"; };
+		489825A871F05B32838686B5AEF77D4A /* CTMediator+TAPersonInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+TAPersonInfo.m"; path = "wgPersonInfoCatogeryKit/Classes/wgPersonInfoCatogery/CTMediator+TAPersonInfo.m"; sourceTree = "<group>"; };
+		54C362A510671F319F2BE5B9F032206F /* Pods-WGLearnMTMediatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGLearnMTMediatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		585D6AC3151E2E666B14434BBCB25998 /* wgPersonPrefenceKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wgPersonPrefenceKit.xcconfig; sourceTree = "<group>"; };
+		5C98E29D71CD4A60BC818ECEED4CAE3B /* Pods-WGLearnMTMediatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGLearnMTMediatorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5CC20A882A70B728DA36893ECBEFB0DC /* libwgPersonPrefrenceCatogeryKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libwgPersonPrefrenceCatogeryKit.a; path = libwgPersonPrefrenceCatogeryKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		61489574C909AF4E12A04173CCDA45BE /* libwgPersonPrefenceKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libwgPersonPrefenceKit.a; path = libwgPersonPrefenceKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4663E377FC8191E3C1A95C826D6AB6 /* wgPersonPrefenceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wgPersonPrefenceKit-prefix.pch"; sourceTree = "<group>"; };
+		6F9FB48BA8C894BED3969806A4E0FDE7 /* Pods-WGLearnMTMediatorDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WGLearnMTMediatorDemo-frameworks.sh"; sourceTree = "<group>"; };
+		74FF390697740ECABB007779C45C25FF /* wgPersonInfoKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wgPersonInfoKit-prefix.pch"; sourceTree = "<group>"; };
+		80D79926A9A3C1A16D601AC44EC49F50 /* wgPersonPrefrenceCatogeryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wgPersonPrefrenceCatogeryKit.xcconfig; sourceTree = "<group>"; };
+		8BB0E3B3BA8BA3A813E69285D19F483E /* wgPersonInfoCatogeryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "wgPersonInfoCatogeryKit-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		996389F0386ED53C1D6D784318763F3D /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		9A55BCBDE14F8A332DECC67A3467C108 /* CTMediator+TAPersonPreference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+TAPersonPreference.h"; path = "wgPersonPrefrenceCatogeryKit/Classes/wgPersonPrefrenceCatogery/CTMediator+TAPersonPreference.h"; sourceTree = "<group>"; };
+		9B64F38FE8D93EDDBE2819AD0413C3EE /* WGPersonInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WGPersonInfoViewController.m; path = wgPersonInfoKit/Classes/TAPersonInfo/WGPersonInfoViewController.m; sourceTree = "<group>"; };
+		9C3213D4DF3461B402422280CF1E3399 /* wgPersonInfoKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wgPersonInfoKit.xcconfig; sourceTree = "<group>"; };
+		9E7E65F16F106188E143013A87452FE8 /* libPods-WGLearnMTMediatorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WGLearnMTMediatorDemo.a"; path = "libPods-WGLearnMTMediatorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71FE2B9B12E62196685DB541A5BC6D2 /* libCTMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCTMediator.a; path = libCTMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B556C1A62CD3585FA447587D81CFB2CD /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BAC29DBEC0E6A4EBD3955BFB43930978 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = wgPersonPrefrenceCatogeryKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		BBC94349A7DD9AE5939B1130AC71170E /* libwgPersonInfoCatogeryKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libwgPersonInfoCatogeryKit.a; path = libwgPersonInfoCatogeryKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4AAFF9DAE3229670B49410D25708E6 /* Pods-WGLearnMTMediatorDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WGLearnMTMediatorDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE83C003EA4D807CF1528839356D469D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = wgPersonPrefenceKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C7376CCEB5E13B352AD4AE559B1B07B2 /* wgPersonPrefrenceCatogeryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "wgPersonPrefrenceCatogeryKit-dummy.m"; sourceTree = "<group>"; };
+		C8A0B44B31E8BC589912F7992335FCEA /* Pods-WGLearnMTMediatorDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WGLearnMTMediatorDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		CED2FF3F423DDEFAF7857F18EF1D0258 /* libwgPersonInfoKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libwgPersonInfoKit.a; path = libwgPersonInfoKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB65B33D9E3A9671A776D570D58B9AC /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		D876DF8D7E266F8986A4BE7E919CAAC3 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DFC63EF02B50B14C04D4BE21C8CAE9ED /* Pods-WGLearnMTMediatorDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WGLearnMTMediatorDemo-resources.sh"; sourceTree = "<group>"; };
+		F0231A054C16E4B7F4D7621781B66BC3 /* CTMediator+TAPersonInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+TAPersonInfo.h"; path = "wgPersonInfoCatogeryKit/Classes/wgPersonInfoCatogery/CTMediator+TAPersonInfo.h"; sourceTree = "<group>"; };
+		F5C472A32491806808F49FF6814D9440 /* wgPersonInfoKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "wgPersonInfoKit-dummy.m"; sourceTree = "<group>"; };
+		F9D75EA8DE994B51F8B9E82FAD443947 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = wgPersonInfoCatogeryKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		FB96D843DF1F20851B1B44A9B94C2CB2 /* WGPersonPreferenceViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WGPersonPreferenceViewController.m; path = wgPersonPrefenceKit/Classes/TAPersonPrefrence/WGPersonPreferenceViewController.m; sourceTree = "<group>"; };
+		FBCB4A48814FB3EA9690714AF0817967 /* WGPersonInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WGPersonInfoViewController.h; path = wgPersonInfoKit/Classes/TAPersonInfo/WGPersonInfoViewController.h; sourceTree = "<group>"; };
+		FD041F257158AC9243698CA410ECB42B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = wgPersonInfoKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00B88BDA58453A2ABA32C8D6FEEF2C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AF4FBB89C73ED2F37037018DA5A043 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B471A500B3A92F8F167D70BCCE7E9AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E5C3FD58D84C06AAB769DCAD6A8011 /* Foundation.framework in Frameworks */,
+				8B3BA7D52CE22CE2BA9606279D0C1EC2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE40C59BD958AA9C90B1A344116F6615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B5BD94D8E4C0CCD8483E8ECD950359 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88D5C4D4642146EED3747ED4726A0E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52B6AD3A8E8AA4135BCE655345A8F33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BBC0A050A694FD6946E93B5143609D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA26BF5BB36FD3549B1950FD2FF60EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB8DD3F6DE694E840E81E5367513A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC09C6212AC2611F54A805CB90DD57E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		493580C0E685C5F45041D5628112962B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				111DFECE577DD260889B6DD609EBC93A /* wgPersonInfoCatogeryKit.xcconfig */,
+				8BB0E3B3BA8BA3A813E69285D19F483E /* wgPersonInfoCatogeryKit-dummy.m */,
+				008EE0F11FFF718EF0DBB056B7A0ADCF /* wgPersonInfoCatogeryKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/wgPersonInfoCatogeryKit";
+			sourceTree = "<group>";
+		};
+		5632D413601C5E6AFF575895D8E60EE0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFB65B33D9E3A9671A776D570D58B9AC /* CTMediator.xcconfig */,
+				996389F0386ED53C1D6D784318763F3D /* CTMediator-dummy.m */,
+				B556C1A62CD3585FA447587D81CFB2CD /* CTMediator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		5FEF7C7036291BF45B87F15F9EFD98DD /* wgPersonPrefrenceCatogeryKit */ = {
+			isa = PBXGroup;
+			children = (
+				9A55BCBDE14F8A332DECC67A3467C108 /* CTMediator+TAPersonPreference.h */,
+				388169EDF320DE4375DFA4F9DB38A10D /* CTMediator+TAPersonPreference.m */,
+				BAC29DBEC0E6A4EBD3955BFB43930978 /* ReplaceMe.m */,
+				E3A373235B219F7D365A1ED700280C6B /* Support Files */,
+			);
+			name = wgPersonPrefrenceCatogeryKit;
+			path = wgPersonPrefrenceCatogeryKit;
+			sourceTree = "<group>";
+		};
+		699803AEDC89B1402CFABC88CDFCF3AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C3213D4DF3461B402422280CF1E3399 /* wgPersonInfoKit.xcconfig */,
+				F5C472A32491806808F49FF6814D9440 /* wgPersonInfoKit-dummy.m */,
+				74FF390697740ECABB007779C45C25FF /* wgPersonInfoKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/wgPersonInfoKit";
+			sourceTree = "<group>";
+		};
+		71693B87ABF880A5E6C046CC9A8F242C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				585D6AC3151E2E666B14434BBCB25998 /* wgPersonPrefenceKit.xcconfig */,
+				1CDA3F8FDB2DD154C2B6BC239AB4AE32 /* wgPersonPrefenceKit-dummy.m */,
+				6F4663E377FC8191E3C1A95C826D6AB6 /* wgPersonPrefenceKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/wgPersonPrefenceKit";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				85C3B5270F70A276BC45CF7A0E218011 /* Pods */,
+				DB42169321BA7A53A88972E9AD9F1274 /* Products */,
+				E5D619AF333C566FF2372C1FD6CD2B24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82C9E075793B27539B809539C7F323D3 /* wgPersonInfoKit */ = {
+			isa = PBXGroup;
+			children = (
+				FD041F257158AC9243698CA410ECB42B /* ReplaceMe.m */,
+				2EE5BDCBB633E92E9C6442416D857F2B /* Target_WGPersonInfoViewController.h */,
+				46B0171CA978CF1C690A9C9DB9A43E10 /* Target_WGPersonInfoViewController.m */,
+				FBCB4A48814FB3EA9690714AF0817967 /* WGPersonInfoViewController.h */,
+				9B64F38FE8D93EDDBE2819AD0413C3EE /* WGPersonInfoViewController.m */,
+				699803AEDC89B1402CFABC88CDFCF3AD /* Support Files */,
+			);
+			name = wgPersonInfoKit;
+			path = wgPersonInfoKit;
+			sourceTree = "<group>";
+		};
+		85C3B5270F70A276BC45CF7A0E218011 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD738A9864F7503BE68F5F29FD9725B0 /* CTMediator */,
+				E3B572F3501CD10140C2AAD120B9DC78 /* wgPersonInfoCatogeryKit */,
+				82C9E075793B27539B809539C7F323D3 /* wgPersonInfoKit */,
+				C6F456B4573CA6950EC95A09F1DA14E5 /* wgPersonPrefenceKit */,
+				5FEF7C7036291BF45B87F15F9EFD98DD /* wgPersonPrefrenceCatogeryKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6F456B4573CA6950EC95A09F1DA14E5 /* wgPersonPrefenceKit */ = {
+			isa = PBXGroup;
+			children = (
+				BE83C003EA4D807CF1528839356D469D /* ReplaceMe.m */,
+				1E01855584A82D0619E1670E4B1C2084 /* Target_WGPersonPreferenceViewController.h */,
+				3FBDC4F9C8953AF7B123021F9AC44FE0 /* Target_WGPersonPreferenceViewController.m */,
+				217EB8845EAB8EEEAB7ECC3484B0E345 /* WGPersonPreferenceViewController.h */,
+				FB96D843DF1F20851B1B44A9B94C2CB2 /* WGPersonPreferenceViewController.m */,
+				71693B87ABF880A5E6C046CC9A8F242C /* Support Files */,
+			);
+			name = wgPersonPrefenceKit;
+			path = wgPersonPrefenceKit;
+			sourceTree = "<group>";
+		};
+		DB42169321BA7A53A88972E9AD9F1274 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A71FE2B9B12E62196685DB541A5BC6D2 /* libCTMediator.a */,
+				9E7E65F16F106188E143013A87452FE8 /* libPods-WGLearnMTMediatorDemo.a */,
+				BBC94349A7DD9AE5939B1130AC71170E /* libwgPersonInfoCatogeryKit.a */,
+				CED2FF3F423DDEFAF7857F18EF1D0258 /* libwgPersonInfoKit.a */,
+				61489574C909AF4E12A04173CCDA45BE /* libwgPersonPrefenceKit.a */,
+				5CC20A882A70B728DA36893ECBEFB0DC /* libwgPersonPrefrenceCatogeryKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E006EC977BA2FAFD0BAC889427124AE0 /* Pods-WGLearnMTMediatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BE4AAFF9DAE3229670B49410D25708E6 /* Pods-WGLearnMTMediatorDemo-acknowledgements.markdown */,
+				C8A0B44B31E8BC589912F7992335FCEA /* Pods-WGLearnMTMediatorDemo-acknowledgements.plist */,
+				327D225073FF2A1432E696411BF082A5 /* Pods-WGLearnMTMediatorDemo-dummy.m */,
+				6F9FB48BA8C894BED3969806A4E0FDE7 /* Pods-WGLearnMTMediatorDemo-frameworks.sh */,
+				DFC63EF02B50B14C04D4BE21C8CAE9ED /* Pods-WGLearnMTMediatorDemo-resources.sh */,
+				54C362A510671F319F2BE5B9F032206F /* Pods-WGLearnMTMediatorDemo.debug.xcconfig */,
+				5C98E29D71CD4A60BC818ECEED4CAE3B /* Pods-WGLearnMTMediatorDemo.release.xcconfig */,
+			);
+			name = "Pods-WGLearnMTMediatorDemo";
+			path = "Target Support Files/Pods-WGLearnMTMediatorDemo";
+			sourceTree = "<group>";
+		};
+		E3A373235B219F7D365A1ED700280C6B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80D79926A9A3C1A16D601AC44EC49F50 /* wgPersonPrefrenceCatogeryKit.xcconfig */,
+				C7376CCEB5E13B352AD4AE559B1B07B2 /* wgPersonPrefrenceCatogeryKit-dummy.m */,
+				254224D964FE1AFC825F1380F5402B25 /* wgPersonPrefrenceCatogeryKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/wgPersonPrefrenceCatogeryKit";
+			sourceTree = "<group>";
+		};
+		E3B572F3501CD10140C2AAD120B9DC78 /* wgPersonInfoCatogeryKit */ = {
+			isa = PBXGroup;
+			children = (
+				F0231A054C16E4B7F4D7621781B66BC3 /* CTMediator+TAPersonInfo.h */,
+				489825A871F05B32838686B5AEF77D4A /* CTMediator+TAPersonInfo.m */,
+				F9D75EA8DE994B51F8B9E82FAD443947 /* ReplaceMe.m */,
+				493580C0E685C5F45041D5628112962B /* Support Files */,
+			);
+			name = wgPersonInfoCatogeryKit;
+			path = wgPersonInfoCatogeryKit;
+			sourceTree = "<group>";
+		};
+		E5D619AF333C566FF2372C1FD6CD2B24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E006EC977BA2FAFD0BAC889427124AE0 /* Pods-WGLearnMTMediatorDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FD738A9864F7503BE68F5F29FD9725B0 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				3DD1503EE75FEFEC579439526D657B82 /* CTMediator.h */,
+				D876DF8D7E266F8986A4BE7E919CAAC3 /* CTMediator.m */,
+				5632D413601C5E6AFF575895D8E60EE0 /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05A2BAC0A633F87D4B0C31E0EED10EB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9669B6C3B13147F2378BA930E7E2DB7 /* CTMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D4E26A8BD04EE5C09A38235CB955D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEEB2239E620663FD432B5390C0CACD /* CTMediator+TAPersonInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C2A971EEC4E80C673EC8A6A079A1E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BF0A13E768875A66AC431ED350D90A /* Target_WGPersonPreferenceViewController.h in Headers */,
+				3C67BE031B4EF04FE4FFAD5E9BA8D5D6 /* WGPersonPreferenceViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEB0890EC3D2D6C200F4D6B28F5F1CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B6230FABE1099FA5356CFB0C5B8F97 /* Target_WGPersonInfoViewController.h in Headers */,
+				CEF75674A0EC370BF60600842766039C /* WGPersonInfoViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF922BC63D62CD973917CE59406647AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53583C64F37FBAEF368D8BA180F34FC2 /* CTMediator+TAPersonPreference.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18FB85389BC3D9ACEF2B09918633B5E1 /* wgPersonPrefenceKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B553D66F29A2C96E8B03488232A24DBD /* Build configuration list for PBXNativeTarget "wgPersonPrefenceKit" */;
+			buildPhases = (
+				30BB4E7DEFA1FEC961670E072F2D574B /* Sources */,
+				00B88BDA58453A2ABA32C8D6FEEF2C9A /* Frameworks */,
+				C9C2A971EEC4E80C673EC8A6A079A1E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wgPersonPrefenceKit;
+			productName = wgPersonPrefenceKit;
+			productReference = 61489574C909AF4E12A04173CCDA45BE /* libwgPersonPrefenceKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1AE819925A2D066317D6C16A52E744C1 /* Pods-WGLearnMTMediatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EBC38F75987F3ED4E0241DF9DAF8CE2 /* Build configuration list for PBXNativeTarget "Pods-WGLearnMTMediatorDemo" */;
+			buildPhases = (
+				0FC264A79E76AF0300756E9ED837AADF /* Sources */,
+				F88D5C4D4642146EED3747ED4726A0E8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D42862E9F5A6D206C46A29118EE179BD /* PBXTargetDependency */,
+				28D2F0D4F53C8B948F6782E59DE999EE /* PBXTargetDependency */,
+				BC7E10820EBFE21FF1BA2C9D25F4EB6D /* PBXTargetDependency */,
+				2ACD55C417D80106BDB6EA2D8BB1245B /* PBXTargetDependency */,
+				67AF4A9956199DFD8E4DC8EA83780A1E /* PBXTargetDependency */,
+			);
+			name = "Pods-WGLearnMTMediatorDemo";
+			productName = "Pods-WGLearnMTMediatorDemo";
+			productReference = 9E7E65F16F106188E143013A87452FE8 /* libPods-WGLearnMTMediatorDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5732AB7B82F4562C552FDAD06B943A82 /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1F9C072315F41A5C050E8CF41B6D870 /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				9179D011F744D7C84A55D0F3ACAC483F /* Sources */,
+				7B471A500B3A92F8F167D70BCCE7E9AC /* Frameworks */,
+				05A2BAC0A633F87D4B0C31E0EED10EB3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = A71FE2B9B12E62196685DB541A5BC6D2 /* libCTMediator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		855578708F36811DE6A768FE3F2AB633 /* wgPersonInfoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF199DFA8BBC0E9D4EAF8A84DC8D172 /* Build configuration list for PBXNativeTarget "wgPersonInfoKit" */;
+			buildPhases = (
+				F06743744BD0135541D6E3D14124DA0F /* Sources */,
+				F9BBC0A050A694FD6946E93B5143609D /* Frameworks */,
+				CDEB0890EC3D2D6C200F4D6B28F5F1CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B22E3FBCE521674077B61CCB6E4DA9A1 /* PBXTargetDependency */,
+				ABF2F447FAD492E50B8FB7C22A700495 /* PBXTargetDependency */,
+			);
+			name = wgPersonInfoKit;
+			productName = wgPersonInfoKit;
+			productReference = CED2FF3F423DDEFAF7857F18EF1D0258 /* libwgPersonInfoKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8D1AC2F2582BA2BEDCC42FD53BBD7C66 /* wgPersonInfoCatogeryKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C1C7CE19B4FFD44420F6DA9BB8C788 /* Build configuration list for PBXNativeTarget "wgPersonInfoCatogeryKit" */;
+			buildPhases = (
+				5D419CBEAEA4F65249A157DADF1320A9 /* Sources */,
+				FEB8DD3F6DE694E840E81E5367513A21 /* Frameworks */,
+				50D4E26A8BD04EE5C09A38235CB955D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ED988BABF660E00A2AA28C7C38D0CA3 /* PBXTargetDependency */,
+			);
+			name = wgPersonInfoCatogeryKit;
+			productName = wgPersonInfoCatogeryKit;
+			productReference = BBC94349A7DD9AE5939B1130AC71170E /* libwgPersonInfoCatogeryKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B85A5A64A714734C54A2CE84FC2CE393 /* wgPersonPrefrenceCatogeryKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3CF3ECFB9BCC54B6F55E480770C212 /* Build configuration list for PBXNativeTarget "wgPersonPrefrenceCatogeryKit" */;
+			buildPhases = (
+				31CFB6A8D019B5EAA6782C6D4DACBCA2 /* Sources */,
+				EE40C59BD958AA9C90B1A344116F6615 /* Frameworks */,
+				EF922BC63D62CD973917CE59406647AE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6746F2D0D280BE6DEE62227D90FFE429 /* PBXTargetDependency */,
+			);
+			name = wgPersonPrefrenceCatogeryKit;
+			productName = wgPersonPrefrenceCatogeryKit;
+			productReference = 5CC20A882A70B728DA36893ECBEFB0DC /* libwgPersonPrefrenceCatogeryKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DB42169321BA7A53A88972E9AD9F1274 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5732AB7B82F4562C552FDAD06B943A82 /* CTMediator */,
+				1AE819925A2D066317D6C16A52E744C1 /* Pods-WGLearnMTMediatorDemo */,
+				8D1AC2F2582BA2BEDCC42FD53BBD7C66 /* wgPersonInfoCatogeryKit */,
+				855578708F36811DE6A768FE3F2AB633 /* wgPersonInfoKit */,
+				18FB85389BC3D9ACEF2B09918633B5E1 /* wgPersonPrefenceKit */,
+				B85A5A64A714734C54A2CE84FC2CE393 /* wgPersonPrefrenceCatogeryKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FC264A79E76AF0300756E9ED837AADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0E53F480191293E487CCB91D4DE7B7 /* Pods-WGLearnMTMediatorDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BB4E7DEFA1FEC961670E072F2D574B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE607216D5052E027B179E1665610D1 /* ReplaceMe.m in Sources */,
+				05E5117C82E752C6BD3CB1F8A3B178B7 /* Target_WGPersonPreferenceViewController.m in Sources */,
+				5564A0FC91418D0B995464C6B3A9C9DA /* wgPersonPrefenceKit-dummy.m in Sources */,
+				E39EBA8D7BA273BE5EB821F80AA7C210 /* WGPersonPreferenceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31CFB6A8D019B5EAA6782C6D4DACBCA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC096206B1F5215ED5C7B389C73B355 /* CTMediator+TAPersonPreference.m in Sources */,
+				385974CC034C7422D703FB06BAFFEE19 /* ReplaceMe.m in Sources */,
+				5298AC33D3254C036CE88FA30BA7EC03 /* wgPersonPrefrenceCatogeryKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D419CBEAEA4F65249A157DADF1320A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0A3E95D6E6B6E68CC165D87DC0854A /* CTMediator+TAPersonInfo.m in Sources */,
+				FA0E7E9C9CC322E87D9CEEC76A5E0E46 /* ReplaceMe.m in Sources */,
+				F3AAE8E94E972E6A871311670E37ADB8 /* wgPersonInfoCatogeryKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9179D011F744D7C84A55D0F3ACAC483F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020A63DFD67B2AC03F05C87257C2F4EF /* CTMediator-dummy.m in Sources */,
+				952E79EC7239346292F68B69334B6DB5 /* CTMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06743744BD0135541D6E3D14124DA0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7FDB0B3F24AFB4D4E5C102AC9A5C29 /* ReplaceMe.m in Sources */,
+				07BD206973187D58A455E958D8CDA033 /* Target_WGPersonInfoViewController.m in Sources */,
+				A2A47125410E87FF2275B261D1462B46 /* wgPersonInfoKit-dummy.m in Sources */,
+				9B725822091BA38E5935E870F2169989 /* WGPersonInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28D2F0D4F53C8B948F6782E59DE999EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = wgPersonInfoCatogeryKit;
+			target = 8D1AC2F2582BA2BEDCC42FD53BBD7C66 /* wgPersonInfoCatogeryKit */;
+			targetProxy = 41B58ECC51A47959B50D1AC2C6AFE7D4 /* PBXContainerItemProxy */;
+		};
+		2ACD55C417D80106BDB6EA2D8BB1245B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = wgPersonPrefenceKit;
+			target = 18FB85389BC3D9ACEF2B09918633B5E1 /* wgPersonPrefenceKit */;
+			targetProxy = 4E75E8DB5CE5B87F17DC274558A3F6E2 /* PBXContainerItemProxy */;
+		};
+		6746F2D0D280BE6DEE62227D90FFE429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 5732AB7B82F4562C552FDAD06B943A82 /* CTMediator */;
+			targetProxy = 5B80B1BC4323BDFB8652E79E8F27EF36 /* PBXContainerItemProxy */;
+		};
+		67AF4A9956199DFD8E4DC8EA83780A1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = wgPersonPrefrenceCatogeryKit;
+			target = B85A5A64A714734C54A2CE84FC2CE393 /* wgPersonPrefrenceCatogeryKit */;
+			targetProxy = 79AB1958B295B5F8CBCF3218CAE1FD7D /* PBXContainerItemProxy */;
+		};
+		6ED988BABF660E00A2AA28C7C38D0CA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 5732AB7B82F4562C552FDAD06B943A82 /* CTMediator */;
+			targetProxy = 2588F6EE66251579B1EDFF51365BB3D2 /* PBXContainerItemProxy */;
+		};
+		ABF2F447FAD492E50B8FB7C22A700495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = wgPersonPrefrenceCatogeryKit;
+			target = B85A5A64A714734C54A2CE84FC2CE393 /* wgPersonPrefrenceCatogeryKit */;
+			targetProxy = 77418B15D3281093FF7F7538F13D115D /* PBXContainerItemProxy */;
+		};
+		B22E3FBCE521674077B61CCB6E4DA9A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 5732AB7B82F4562C552FDAD06B943A82 /* CTMediator */;
+			targetProxy = A9E548AFBF0DF711758CFBA4C57038AE /* PBXContainerItemProxy */;
+		};
+		BC7E10820EBFE21FF1BA2C9D25F4EB6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = wgPersonInfoKit;
+			target = 855578708F36811DE6A768FE3F2AB633 /* wgPersonInfoKit */;
+			targetProxy = C3162D11C20A09F5CF44A270637D0824 /* PBXContainerItemProxy */;
+		};
+		D42862E9F5A6D206C46A29118EE179BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 5732AB7B82F4562C552FDAD06B943A82 /* CTMediator */;
+			targetProxy = 1D7958D515B3771E353F35DEDDA5A79B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0162F3F8207CBDCE0347A1C4621109DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C98E29D71CD4A60BC818ECEED4CAE3B /* Pods-WGLearnMTMediatorDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		105793EB857D2EA116E1BAA0311C1D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D79926A9A3C1A16D601AC44EC49F50 /* wgPersonPrefrenceCatogeryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/wgPersonPrefrenceCatogeryKit/wgPersonPrefrenceCatogeryKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D9E08F8808C402FF68760DDE46CC4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 585D6AC3151E2E666B14434BBCB25998 /* wgPersonPrefenceKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/wgPersonPrefenceKit/wgPersonPrefenceKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		50D80AE5C6D54EF57C44600E8D10DCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C3213D4DF3461B402422280CF1E3399 /* wgPersonInfoKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/wgPersonInfoKit/wgPersonInfoKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		681F734402E5DEB7103F6E0C39A286A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111DFECE577DD260889B6DD609EBC93A /* wgPersonInfoCatogeryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/wgPersonInfoCatogeryKit/wgPersonInfoCatogeryKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C25A9192E033A45F9B695C09CA3EEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C3213D4DF3461B402422280CF1E3399 /* wgPersonInfoKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/wgPersonInfoKit/wgPersonInfoKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76AD0F4838FA017A268E2BEA583E9D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB65B33D9E3A9671A776D570D58B9AC /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77492E645D55D23CC85E25795A0E5E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111DFECE577DD260889B6DD609EBC93A /* wgPersonInfoCatogeryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/wgPersonInfoCatogeryKit/wgPersonInfoCatogeryKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7860C0D2D404E4EB75654498DF78E5D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 585D6AC3151E2E666B14434BBCB25998 /* wgPersonPrefenceKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/wgPersonPrefenceKit/wgPersonPrefenceKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85598A66AB845B7C239356941B99056B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB65B33D9E3A9671A776D570D58B9AC /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DD1A45CE22D3D726CB1A2442523627D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D79926A9A3C1A16D601AC44EC49F50 /* wgPersonPrefrenceCatogeryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/wgPersonPrefrenceCatogeryKit/wgPersonPrefrenceCatogeryKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1F92BE6C69743EE23E7A4A49DE574F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C362A510671F319F2BE5B9F032206F /* Pods-WGLearnMTMediatorDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EBC38F75987F3ED4E0241DF9DAF8CE2 /* Build configuration list for PBXNativeTarget "Pods-WGLearnMTMediatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F92BE6C69743EE23E7A4A49DE574F9 /* Debug */,
+				0162F3F8207CBDCE0347A1C4621109DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1F9C072315F41A5C050E8CF41B6D870 /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AD0F4838FA017A268E2BEA583E9D60 /* Debug */,
+				85598A66AB845B7C239356941B99056B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B553D66F29A2C96E8B03488232A24DBD /* Build configuration list for PBXNativeTarget "wgPersonPrefenceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D9E08F8808C402FF68760DDE46CC4AF /* Debug */,
+				7860C0D2D404E4EB75654498DF78E5D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF199DFA8BBC0E9D4EAF8A84DC8D172 /* Build configuration list for PBXNativeTarget "wgPersonInfoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C25A9192E033A45F9B695C09CA3EEC3 /* Debug */,
+				50D80AE5C6D54EF57C44600E8D10DCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C1C7CE19B4FFD44420F6DA9BB8C788 /* Build configuration list for PBXNativeTarget "wgPersonInfoCatogeryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77492E645D55D23CC85E25795A0E5E0C /* Debug */,
+				681F734402E5DEB7103F6E0C39A286A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3CF3ECFB9BCC54B6F55E480770C212 /* Build configuration list for PBXNativeTarget "wgPersonPrefrenceCatogeryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1A45CE22D3D726CB1A2442523627D4 /* Debug */,
+				105793EB857D2EA116E1BAA0311C1D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

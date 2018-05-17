@@ -1,0 +1,1 @@
+../../../wgPersonInfoCatogeryKit/wgPersonInfoCatogeryKit/Classes/wgPersonInfoCatogery/CTMediator+TAPersonInfo.h

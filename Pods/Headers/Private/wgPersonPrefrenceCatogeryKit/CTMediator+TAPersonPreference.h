@@ -1,0 +1,1 @@
+../../../wgPersonPrefrenceCatogeryKit/wgPersonPrefrenceCatogeryKit/Classes/wgPersonPrefrenceCatogery/CTMediator+TAPersonPreference.h
