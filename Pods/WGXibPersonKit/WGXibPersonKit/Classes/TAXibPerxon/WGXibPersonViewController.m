@@ -21,7 +21,7 @@
 -(instancetype)init{
     
     self = [super initWithNibName:@"WGXibPersonViewController" bundle:[NSBundle wg_subBundleWithBundleName:@"WGXibPersonKit" targetClass:[self class]]];
-    
+        
     if (self){
     }
     return self;
