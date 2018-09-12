@@ -8,10 +8,12 @@
 
 #import "ViewController.h"
 #import "CTMediator+TAPersonInfo.h"
+#import "CTMediator+TAXibPerson.h"
 
 @interface ViewController ()
 
 @property (nonatomic, strong) UIButton *perInfoBtn;
+@property (nonatomic, strong) UIButton *xibBtn;
 
 @end
 
@@ -21,11 +23,30 @@
     [super viewDidLoad];
     
     [self.view addSubview:self.perInfoBtn];
+    [self.view addSubview:self.xibBtn];
+
 }
 
 - (void)btnClicked{
     UIViewController *con = [[CTMediator sharedInstance] personInfoWithName:@"寒江" age:18];
     [self.navigationController pushViewController:con animated:YES];
+}
+
+//xib文件组件化显示
+- (void)xibBtnClicked{
+    UIViewController *con = [[CTMediator sharedInstance] xibPersonWithImgName:@"Group"];
+    [self.navigationController pushViewController:con animated:YES];
+}
+
+-(UIButton *)xibBtn{
+    if (!_xibBtn) {
+        _xibBtn = [[UIButton alloc] initWithFrame:CGRectMake(100, 400, 200, 40)];
+        [_xibBtn setTitle:@"xib文件组件化显示" forState:UIControlStateNormal];
+        [_xibBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [_xibBtn setBackgroundColor:[UIColor greenColor]];
+        [_xibBtn addTarget:self action:@selector(xibBtnClicked) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _xibBtn;
 }
 
 -(UIButton *)perInfoBtn{

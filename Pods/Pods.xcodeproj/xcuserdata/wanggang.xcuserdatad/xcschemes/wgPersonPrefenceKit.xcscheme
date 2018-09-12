@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '18FB85389BC3D9ACEF2B09918633B5E1'
-               BlueprintName = 'wgPersonPrefenceKit'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libwgPersonPrefenceKit.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "936191FB55478441975ACFD952607121"
+               BlueprintName = "wgPersonPrefenceKit"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libwgPersonPrefenceKit.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

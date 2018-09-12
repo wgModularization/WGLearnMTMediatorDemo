@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1AE819925A2D066317D6C16A52E744C1'
-               BlueprintName = 'Pods-WGLearnMTMediatorDemo'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-WGLearnMTMediatorDemo.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1B065F3B70D655937251F60EA59D2F37"
+               BlueprintName = "Pods-WGLearnMTMediatorDemo"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libPods-WGLearnMTMediatorDemo.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

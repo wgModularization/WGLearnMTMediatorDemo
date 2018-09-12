@@ -1,26 +1,50 @@
 PODS:
   - CTMediator (18)
+  - wgCommonKit (1)
   - wgPersonInfoCatogeryKit (1):
     - CTMediator
-  - wgPersonInfoKit (1):
+  - wgPersonInfoKit (2):
+    - wgCommonKit
     - wgPersonPrefrenceCatogeryKit
   - wgPersonPrefenceKit (1)
   - wgPersonPrefrenceCatogeryKit (1):
     - CTMediator
+  - wgXibPersonCatogeryKit (0.1.0):
+    - CTMediator
+  - WGXibPersonKit (0.1.3):
+    - wgCommonKit
+    - wgXibPersonCatogeryKit
 
 DEPENDENCIES:
   - wgPersonInfoCatogeryKit
-  - wgPersonInfoKit
+  - wgPersonInfoKit (~> 2)
   - wgPersonPrefenceKit
   - wgPersonPrefrenceCatogeryKit
+  - wgXibPersonCatogeryKit
+  - WGXibPersonKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+  https://github.com/wgModularization/WGModulSpecs.git:
+    - wgCommonKit
+    - wgPersonInfoCatogeryKit
+    - wgPersonInfoKit
+    - wgPersonPrefenceKit
+    - wgPersonPrefrenceCatogeryKit
+    - wgXibPersonCatogeryKit
+    - WGXibPersonKit
 
 SPEC CHECKSUMS:
   CTMediator: 420e9d90f9f1fd740caf2238ed7ed64dc621c5b7
+  wgCommonKit: 05298657b11ba2ef731133b9b6c6d27841745545
   wgPersonInfoCatogeryKit: 7f7141524a3a106f726b11ededeaaaeb731415fd
-  wgPersonInfoKit: b6d184da0f32c2e4bd3318f7cf0137a04cb7a2c5
+  wgPersonInfoKit: 3242de7428aedd975d91a2942b92cab491ecc08b
   wgPersonPrefenceKit: 894211938c9fcce7cab8594576c98cab11c63bcc
   wgPersonPrefrenceCatogeryKit: 601066b5aa42f366d6ae5bd6a7f5a5bd42ba5d43
+  wgXibPersonCatogeryKit: 540bba40d1018fc551415219fa53c4ac917ec073
+  WGXibPersonKit: 6f3be5a2fd7f570fbc0dac48d05c98cdb6f22e9e
 
-PODFILE CHECKSUM: bb2791d03b4405a4e2d5cfc6054b704202e80e34
+PODFILE CHECKSUM: d2607b9ec1ea2df495df3f9972921cce8e08b6fb
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3

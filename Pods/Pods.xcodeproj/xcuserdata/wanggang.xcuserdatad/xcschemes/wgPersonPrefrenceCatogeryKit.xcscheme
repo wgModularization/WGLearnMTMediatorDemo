@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B85A5A64A714734C54A2CE84FC2CE393'
-               BlueprintName = 'wgPersonPrefrenceCatogeryKit'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libwgPersonPrefrenceCatogeryKit.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0CF5E81BFFB6917E48C713F994FAA393"
+               BlueprintName = "wgPersonPrefrenceCatogeryKit"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libwgPersonPrefrenceCatogeryKit.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

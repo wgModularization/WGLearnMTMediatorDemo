@@ -164,7 +164,6 @@
 				32722861209305C800FF7ADB /* Sources */,
 				32722862209305C800FF7ADB /* Frameworks */,
 				32722863209305C800FF7ADB /* Resources */,
-				645D63577CF451FEB19D5C92 /* [CP] Embed Pods Frameworks */,
 				0C1D421A8F52ED71A4E1FB1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -290,28 +289,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WGLearnMTMediatorDemo/Pods-WGLearnMTMediatorDemo-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/WGXibPersonKit/WGXibPersonKit.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/wgPersonInfoKit/wgPersonInfoKit.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WGXibPersonKit.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wgPersonInfoKit.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WGLearnMTMediatorDemo/Pods-WGLearnMTMediatorDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		645D63577CF451FEB19D5C92 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WGLearnMTMediatorDemo/Pods-WGLearnMTMediatorDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		648538BFF0C1B19359028691 /* [CP] Check Pods Manifest.lock */ = {

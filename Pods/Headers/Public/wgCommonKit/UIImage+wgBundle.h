@@ -1,0 +1,1 @@
+../../../wgCommonKit/wgCommonKit/Classes/wgCommon/UIImage+wgBundle.h

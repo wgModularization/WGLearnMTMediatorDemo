@@ -1,0 +1,1 @@
+../../../wgXibPersonCatogeryKit/wgXibPersonCatogeryKit/Classes/wgXibPersonCategory/CTMediator+TAXibPerson.h

@@ -3,9 +3,11 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'WGLearnMTMediatorDemo' do
 
-pod 'wgPersonInfoKit'
+pod 'wgPersonInfoKit', '~> 2'
 pod 'wgPersonInfoCatogeryKit'
 pod 'wgPersonPrefenceKit'
 pod 'wgPersonPrefrenceCatogeryKit'
+pod 'WGXibPersonKit'
+pod 'wgXibPersonCatogeryKit'
 
 end

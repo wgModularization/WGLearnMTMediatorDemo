@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5732AB7B82F4562C552FDAD06B943A82'
-               BlueprintName = 'CTMediator'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libCTMediator.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AB2535474491287421312177295C17CA"
+               BlueprintName = "CTMediator"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libCTMediator.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
